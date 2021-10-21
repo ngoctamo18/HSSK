@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {
   StyleSheet,
   Text,
@@ -9,6 +9,7 @@ import {
   ScrollView,
   Dimensions,
   TouchableOpacity,
+  BackHandler,
 } from 'react-native';
 import RegisterScreen from '../Register/RegisterScreen';
 

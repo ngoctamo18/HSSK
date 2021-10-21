@@ -12,8 +12,12 @@ import {
 export default function SplashScreen({navigation}) {
   useEffect(() => {
     setTimeout(() => {
+      navigation.reset({
+        index: 0,
+        routes: [{name: 'LoginScreen'}],
+      });
       navigation.navigate('LoginScreen');
-    }, 6000);
+    }, 3000);
   }, []);
 
   return (

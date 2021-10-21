@@ -10,6 +10,7 @@ import LoginScreen from './src/screens/Auth/LoginScreen';
 import HomeScreen from './src/screens/HomeScreen';
 import RegisterScreen from './src/screens/Register/RegisterScreen';
 import FogotPass from './src/screens/Auth/FogotPass';
+import GetInforCMND from './src/screens/Register/GetInforCMND';
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
           <Stack.Screen name="LoginScreen" component={LoginScreen} />
           <Stack.Screen name="HomeScreen" component={HomeScreen} />
           <Stack.Screen name="FogotPass" component={FogotPass} />
+          <Stack.Screen name="GetInfoCMNDScreen" component={GetInforCMND} />
           <Stack.Screen name="RegisterScreen" component={RegisterScreen} />
         </Stack.Navigator>
       </NavigationContainer>
